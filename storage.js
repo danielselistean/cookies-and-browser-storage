@@ -1,6 +1,7 @@
 localStorage.setItem('fullName', 'Daniel Selistean');
-const language = localStorage.getItem('fullName'); //local storage value
-console.log(language);
+const name = localStorage.getItem('fullName'); //local storage value
+console.log(name);
+
 
 function setLanguage() {
     const radioButtons = document.getElementsByName('language'); // list of radio buttons
